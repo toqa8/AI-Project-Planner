@@ -46,7 +46,7 @@ AI Project Planner is an AI-based tool that generates organized project plans ba
 
 # ⚙️ Installation
 
-1. Open the [Kaggle Notebook](https://www.kaggle.com/code/toqatareq/tips-hindawi-l5-ngrok-the-gpu-session), enable the GPU (T4), and run the notebook to load the model and start the API.
+1. Open the [Kaggle GPU Notebook](https://www.kaggle.com/code/toqatareq/tips-hindawi-l5-ngrok-the-gpu-session), enable the GPU (T4), and run the notebook to load the model and start the API.
 2. Clone the repository
 3. Install the required libraries:
    ```bash
