@@ -74,7 +74,7 @@ AI Project Planner is an AI-based tool that generates organized project plans ba
 ![image_alt](https://github.com/toqa8/AI-Project-Planner/blob/8bb10fdbb0607602cf17e07159d8c58659c39b1a/2.PNG)
 ![image_alt](https://github.com/toqa8/AI-Project-Planner/blob/a28eb75f562a896dc80e2cc7a6e561041daa7fac/3.PNG)
 ![image_alt](https://github.com/toqa8/AI-Project-Planner/blob/acb3591b18c657c692efa4881e6d5a1b5dce6d80/4.PNG)
-![image_alt]()
+![image_alt](https://github.com/toqa8/AI-Project-Planner/blob/d58e7e0bd70ddad786cf077662d3a4c90cddc975/5.PNG)
 
 ---
 
@@ -87,9 +87,20 @@ AI Project Planner is an AI-based tool that generates organized project plans ba
 
 # 🔮 Future Improvements
 
-* Improvement 1
-* Improvement 2
-* Improvement 3
+* Reduce response time to make project plan generation faster.
+Improve the quality and accuracy of generated project plans.
+Improve task assignment and timeline estimation.
+Deploy the model API on a more stable hosting service to reduce dependence on temporary Kaggle sessions.
+- **Automatic retries:** Re-run a chain when the model returns invalid JSON, instead of showing an error to the user.
+- **Input-aware validation:** Check that the number of generated team members matches the requested team size, and that the timeline fits within the project duration.
+- **Guaranteed structured output:** Use constrained decoding (e.g., Outlines) on the model server so the output always matches the Pydantic schemas.
+- **Permanent model hosting:** Replace the temporary Ngrok tunnel with a stable deployment, so the API URL does not change between sessions.
+- **Better retrieval:** Combine dense search with keyword search (BM25) and add reranking to improve the context passed to each chain.
+- **More input formats:** Support DOCX and scanned PDFs (OCR), and allow multiple files per project.
+- **Editable plans:** Let users edit tasks, roles, and the timeline in the UI, and regenerate a single section without rerunning the whole pipeline.
+- **Timeline visualization:** Display the timeline as a Gantt chart.
+- **Export options:** Download the final plan as PDF or Markdown.
+- **Testing and evaluation:** Add unit tests for the schemas and helper functions, and evaluate plan quality on a set of sample project briefs.
 
 ---
 
