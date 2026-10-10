@@ -52,12 +52,19 @@ AI Project Planner is an AI-based tool that generates organized project plans ba
    ```bash
    pip install -r requirements.txt
    ```
+4. Set up the required environment variables in your `.env` file.
+5. Open the project in VS Code and run:
+   ```bash
+   streamlit run app.py
+   ```     
 
 ---
 
 # 🚀 Usage
 
-Describe how to use the project.
+1. Upload the project description PDF.
+2. Enter the number of team members and the project duration.
+3. Click the the generate button to create the project plan.
 
 ---
 
@@ -69,7 +76,8 @@ Add screenshots, GIFs, or a demo video.
 
 # 📈 Results
 
-Share your project's outcomes or achievements.
+- Generates a clear and structured plan for the user's project.
+- Provides an easy-to-use interface.
 
 ---
 
