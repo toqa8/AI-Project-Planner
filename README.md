@@ -70,7 +70,11 @@ AI Project Planner is an AI-based tool that generates organized project plans ba
 
 # 📸 Demo
 
-Add screenshots, GIFs, or a demo video.
+![image_alt](https://github.com/toqa8/AI-Project-Planner/blob/c5f6e2900831bdc8732c91b31e8d0f5f8496ffac/1.PNG)
+![image_alt]()
+![image_alt]()
+![image_alt]()
+![image_alt]()
 
 ---
 
