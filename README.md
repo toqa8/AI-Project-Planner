@@ -87,20 +87,14 @@ AI Project Planner is an AI-based tool that generates organized project plans ba
 
 # 🔮 Future Improvements
 
-* Reduce response time to make project plan generation faster.
-Improve the quality and accuracy of generated project plans.
-Improve task assignment and timeline estimation.
-Deploy the model API on a more stable hosting service to reduce dependence on temporary Kaggle sessions.
+- **Faster generation:** Reduce response time to make project plan generation faster.
+- **Higher-quality plans:** Improve the quality and accuracy of generated project plans.
+- **Smarter estimation:** Improve task assignment and timeline estimation.
 - **Automatic retries:** Re-run a chain when the model returns invalid JSON, instead of showing an error to the user.
-- **Input-aware validation:** Check that the number of generated team members matches the requested team size, and that the timeline fits within the project duration.
-- **Guaranteed structured output:** Use constrained decoding (e.g., Outlines) on the model server so the output always matches the Pydantic schemas.
-- **Permanent model hosting:** Replace the temporary Ngrok tunnel with a stable deployment, so the API URL does not change between sessions.
-- **Better retrieval:** Combine dense search with keyword search (BM25) and add reranking to improve the context passed to each chain.
+- **Better retrieval:** Add reranking to improve the context passed to each chain.
 - **More input formats:** Support DOCX and scanned PDFs (OCR), and allow multiple files per project.
 - **Editable plans:** Let users edit tasks, roles, and the timeline in the UI, and regenerate a single section without rerunning the whole pipeline.
-- **Timeline visualization:** Display the timeline as a Gantt chart.
-- **Export options:** Download the final plan as PDF or Markdown.
-- **Testing and evaluation:** Add unit tests for the schemas and helper functions, and evaluate plan quality on a set of sample project briefs.
+- **Export option:** Download the final plan as PDF.
 
 ---
 
